@@ -1,0 +1,7 @@
+2019-06-28 13:31:43.127 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2019-06-28 13:31:43.130 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2019-06-28 13:31:43.131 INFO  [ModuleRegistry-1] - Module STARTING
+2019-06-28 13:31:43.269 INFO  [ModuleRegistry-1] - Static resources root is web
+2019-06-28 13:31:43.315 INFO  [ModuleRegistry-1] - Servlets root is /sensorhub
+2019-06-28 13:31:43.571 INFO  [ModuleRegistry-1] - HTTP server started on port 8181
+2019-06-28 13:31:43.571 INFO  [ModuleRegistry-1] - Module STARTED

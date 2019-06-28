@@ -1,0 +1,4 @@
+2019-06-28 13:31:43.193 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2019-06-28 13:31:43.194 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2019-06-28 13:31:43.194 INFO  [ModuleRegistry-6] - Module STARTING
+2019-06-28 13:31:43.688 INFO  [EventBus-5] - Module STARTED

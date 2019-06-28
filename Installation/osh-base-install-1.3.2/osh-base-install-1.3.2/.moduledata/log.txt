@@ -1,0 +1,43 @@
+2019-06-28 13:31:43.069 INFO  [main] - *****************************************
+2019-06-28 13:31:43.071 INFO  [main] - Starting SensorHub...
+2019-06-28 13:31:43.131 INFO  [EventBus-2] - Initializing module 'Users' [bd112969-8838-4f62-8d10-1edf1baa6669]
+2019-06-28 13:31:43.131 INFO  [EventBus-1] - Initializing module 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2019-06-28 13:31:43.134 INFO  [EventBus-3] - Module 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1] initialized
+2019-06-28 13:31:43.134 INFO  [ModuleRegistry-2] - User registry provided by module 'Users' [bd112969-8838-4f62-8d10-1edf1baa6669]
+2019-06-28 13:31:43.135 INFO  [EventBus-1] - Module 'Users' [bd112969-8838-4f62-8d10-1edf1baa6669] initialized
+2019-06-28 13:31:43.135 INFO  [ModuleRegistry-2] - Authorization realm provided by module 'Users' [bd112969-8838-4f62-8d10-1edf1baa6669]
+2019-06-28 13:31:43.136 INFO  [EventBus-2] - Initializing module 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2019-06-28 13:31:43.137 INFO  [EventBus-4] - Starting module 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2019-06-28 13:31:43.139 INFO  [EventBus-6] - Starting module 'Users' [bd112969-8838-4f62-8d10-1edf1baa6669]
+2019-06-28 13:31:43.139 INFO  [EventBus-5] - Module 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678] initialized
+2019-06-28 13:31:43.139 INFO  [EventBus-4] - Module 'Users' [bd112969-8838-4f62-8d10-1edf1baa6669] started
+2019-06-28 13:31:43.141 INFO  [EventBus-4] - Starting module 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2019-06-28 13:31:43.155 INFO  [EventBus-4] - Initializing module 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73]
+2019-06-28 13:31:43.156 INFO  [EventBus-5] - Initializing module 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2019-06-28 13:31:43.160 INFO  [EventBus-6] - Initializing module 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2019-06-28 13:31:43.159 INFO  [EventBus-4] - Initializing module 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2019-06-28 13:31:43.163 INFO  [EventBus-5] - Module 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1] initialized
+2019-06-28 13:31:43.163 ERROR [EventBus-6] - Error in module 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2019-06-28 13:31:43.164 INFO  [EventBus-2] - Module 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2] initialized
+2019-06-28 13:31:43.164 ERROR [ModuleRegistry-3] - Cannot start module 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+org.sensorhub.api.common.SensorHubException: Module must first be initialized
+	at org.sensorhub.impl.module.AbstractModule.canStart(AbstractModule.java:406)
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:433)
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:485)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-28 13:31:43.165 INFO  [EventBus-4] - Starting module 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2019-06-28 13:31:43.166 INFO  [EventBus-5] - Starting module 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2019-06-28 13:31:43.193 INFO  [EventBus-5] - Initializing module 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2019-06-28 13:31:43.194 INFO  [EventBus-4] - Module 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1] initialized
+2019-06-28 13:31:43.195 INFO  [EventBus-5] - Starting module 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2019-06-28 13:31:43.202 INFO  [EventBus-5] - Module 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73] initialized
+2019-06-28 13:31:43.204 INFO  [EventBus-4] - Starting module 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73]
+2019-06-28 13:31:43.205 INFO  [EventBus-4] - Module 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73] started
+2019-06-28 13:31:43.419 INFO  [EventBus-4] - Module 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2] started
+2019-06-28 13:31:43.572 INFO  [EventBus-4] - Module 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1] started
+2019-06-28 13:31:43.679 INFO  [EventBus-4] - Module 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678] started
+2019-06-28 13:31:43.688 INFO  [EventBus-4] - Module 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1] started

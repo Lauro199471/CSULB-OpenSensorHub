@@ -1,0 +1,4 @@
+2019-06-28 13:31:43.160 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2019-06-28 13:31:43.160 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2019-06-28 13:31:43.160 INFO  [ModuleRegistry-4] - Module STARTING
+2019-06-28 13:31:43.250 INFO  [ModuleRegistry-4] - Waiting for data source 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]

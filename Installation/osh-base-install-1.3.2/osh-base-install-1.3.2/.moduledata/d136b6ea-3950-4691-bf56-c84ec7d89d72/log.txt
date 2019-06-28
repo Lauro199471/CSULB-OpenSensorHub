@@ -1,0 +1,15 @@
+2019-06-28 13:31:43.155 INFO  [ModuleRegistry-3] - Module INITIALIZING
+2019-06-28 13:31:43.162 ERROR [ModuleRegistry-3] - Cannot initialize module 
+org.sensorhub.api.common.SensorHubException: A Google API key with access to the Directions API must be provided in the configuration
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsSensor.init(FakeGpsSensor.java:46)
+	at org.sensorhub.impl.module.AbstractModule.init(AbstractModule.java:396)
+	at org.sensorhub.impl.sensor.AbstractSensorModule.init(AbstractSensorModule.java:125)
+	at org.sensorhub.impl.sensor.AbstractSensorModule.init(AbstractSensorModule.java:79)
+	at org.sensorhub.impl.module.AbstractModule.requestInit(AbstractModule.java:374)
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:476)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-28 13:31:43.163 INFO  [ModuleRegistry-3] - Module LOADED
